@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'Chakra Petch';
+  font-family: "Chakra Petch";
   src: url("../fonts/ChakraPetch-Bold.ttf");
 }
-
 * {
   border: none;
   margin: 0;
   padding: 0;
-  font-family: 'Chakra Petch';
+  font-family: "Chakra Petch";
 }
 
 html {
@@ -23,7 +22,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 body header {
   display: flex;
   justify-content: center;
@@ -31,7 +29,6 @@ body header {
   flex-direction: column;
   margin-top: 5vh;
 }
-
 body header img {
   width: 5vw;
   padding: 2vw;
@@ -40,22 +37,21 @@ body header img {
   border: 0.25rem inset #047e1d;
   margin-bottom: 2vh;
 }
-
 body header h1 {
   color: #047e1d;
   width: auto;
   margin: 0;
-  font-size: 1.5vw;
+  font-size: 2vw;
   background-color: transparent;
   border: none;
   text-decoration: none;
 }
-
 body h1 {
   color: #047e1d;
+  font-size: 2vw;
+  font-style: italic;
   text-shadow: 3px 3px black;
 }
-
 body main {
   width: 80vw;
   display: flex;
@@ -66,8 +62,8 @@ body main {
   border: 1vw solid #047e1d;
   border-radius: 2vw;
   position: relative;
+  padding-bottom: 5vh;
 }
-
 body main #music {
   display: flex;
   flex-direction: column;
@@ -75,11 +71,9 @@ body main #music {
   align-items: center;
   position: relative;
 }
-
 body main #music h1 {
   text-align: center;
 }
-
 body main #music img {
   position: absolute;
   width: 2vw;
@@ -88,15 +82,12 @@ body main #music img {
   cursor: pointer;
   transition: all 0.5s;
 }
-
 body main #music img:hover {
   transform: scale(1.2);
 }
-
 body main #music img:active {
   transform: scale(0.9);
 }
-
 body main #music div {
   display: flex;
   justify-content: space-between;
@@ -106,22 +97,18 @@ body main #music div {
   padding-left: 2vw;
   padding-right: 2vw;
 }
-
 body main #music div iframe {
   width: 33%;
 }
-
 body main section {
   display: flex;
   justify-content: center;
   width: 50%;
   margin-top: 2vh;
 }
-
 body main section a {
   text-decoration: none;
 }
-
 body main section a .shortcut {
   width: 12vw;
   transform: none;
@@ -130,15 +117,12 @@ body main section a .shortcut {
   justify-content: center;
   align-items: center;
 }
-
 body main section a .shortcut:hover div {
   transform: scale(1.5);
 }
-
 body main section a .shortcut:hover h3 {
   transform: translateY(2vh);
 }
-
 body main section a .shortcut div {
   background-color: #3a3c41;
   border: 0.25rem inset #047e1d;
@@ -151,18 +135,16 @@ body main section a .shortcut div {
   transition: all 0.5s;
   overflow: hidden;
 }
-
 body main section a .shortcut div img {
   width: 5vw;
   height: 20vh;
   transition: all 0.5s;
 }
-
 body main section a .shortcut h3 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
   color: #047e1d;
   transition: all 0.5s;
   width: 100%;
-}
-/*# sourceMappingURL=main.css.map */
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
